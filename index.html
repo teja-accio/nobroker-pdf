@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Flexbox Tutorial</title>
       <link rel="stylesheet" href="styles.css">
       <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -14,7 +14,7 @@
                <div>
                   <img src="images/nobrokerlogo.png" alt="nobrokerlogo">
                </div>
-               <div style="text-align: right;margin-right: -135px;">
+               <div class="align-red">
                   <div class="flex-item">
                   </div>
                   <div>
@@ -30,86 +30,92 @@
                   <h4 class=".status-head"> Status: <span class="green-col"><i class="fa fa-check-circle"></i> Completed</span></h4>
                </div>
             </div>
-            <div class="flex-container">
-               <div>
-                  <div>
-                     <i class="fa fa-user" aria-hidden="true" style="font-size: 1.73em;"></i>
-                     <p>Name <br>
-                        John David
-                     </p>
+            <div class="flex-container-1">
+               
+                  <div class="image">
+                     <i class="fa fa-user" aria-hidden="true" style="font-size: 50px"></i>
+                     
                   </div>
-               </div>
-               <div>
-                  <div>
-                     <i class="fa fa-mobile" aria-hidden="true" style="font-size: 1.73em;"></i>
-                     <p>
-                        Mobile<br>
-                        9888888888
-                     </p>
+                  <div  class="text"> 
+                    <p>Name <br>
+                      John David
+                   </p>
                   </div>
+               
+                  <div class="image">
+                     <i class="fa fa-mobile" aria-hidden="true" style="font-size: 50px"></i>
+                     
+                  </div>
+                  <div  class="text">
+                    <p>
+                      Mobile <br>
+                      9888888888
+                   </p>
+                  </div>
+               
+               <div class="image">
+                  <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 50px"></i>
+                  
                </div>
-               <div>
-                  <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 1.73em;"></i>
-                  <p>
-                     Permanent Address<br>
-                     44, 5th Street, Alpine society,<br>
-                     Mumbai, Maharastra 400011
-                  </p>
+               <div  class="text">
+                <p>
+                  Permanent Address<br>
+                  44, 5th Street, Alpine society,<br>
+                  Mumbai, Maharastra 400011
+               </p>
                </div>
-               <div>
-                  <i class="fa fa-location-arrow" aria-hidden="true" style="font-size: 1.73em;"></i>
-                  <p>
-                     Current Address<br>
-                     44, 5th Street, Alpine society,<br>
-                     Mumbai, Maharastra 400011
-                  </p>
+               <div class="image">
+                  <i class="fa fa-location-arrow" aria-hidden="true" style="font-size: 50px"></i>
+                  
+               </div>
+               <div  class="text">
+                <p>
+                  Current Address<br>
+                  44, 5th Street, Alpine society,<br>
+                  Mumbai, Maharastra 400011
+               </p>
+               </div>
+               
+            </div>
+            <div class="div-pad">
+               <div class="row">
+                  <h3>Initiation Date: 08 Jan, 2022 | Completion Date: 11 Jan, 2022 | CRN number: LL-1232</h3>
+                  <div class="first-column">
+                     <table>
+                        <tr>
+                           <th>Verification</td>
+                           <th>Verification Date</td>
+                           <th>Status</td>
+                           <th>Verification Result</td>
+                        </tr>
+                        <tr>
+                           <td>ID Verification report - Detailed</td>
+                           <td>08 Jan, 2022</td>
+                           <td class="green-col">Completed</td>
+                           <td class="green-col">Verified</td>
+                        </tr>
+                        <tr>
+                           <td>Permanent address verification report</td>
+                           <td>10 Jan, 2022</td>
+                           <td class="green-col">Completed</td>
+                           <td class="green-col">Verified</td>
+                        </tr>
+                        <tr>
+                           <td>Reference check report</td>
+                           <td>11 Jan, 2022</td>
+                           <td class="green-col">Completed</td>
+                           <td class="green-col">Completed</td>
+                        </tr>
+                        <tr>
+                           <td>Court Record Verification report</td>
+                           <td>09 Jan, 2022</td>
+                           <td class="green-col">Completed</td>
+                           <td class="red-col">Cases found</td>
+                        </tr>
+                     </table>
+                  </div>
                </div>
             </div>
-
-            <div class="div-pad">
-                
-                <div class="row">
-                    <h3>Initiation Date: 08 Jan, 2022 | Completion Date: 11 Jan, 2022 | CRN number: LL-1232</h3>
-                    <div class="first-column">
-                       
-                      <table>
-                        <tr>
-                            <th>Verification</td>
-                            <th>Verification Date</td>
-                            <th>Status</td>
-                            <th>Verification Result</td>
-                        </tr>
-                        
-                        <tr>
-                          <td>ID Verification report - Detailed</td>
-                          <td>08 Jan, 2022</td>
-                          <td class="green-col">Completed</td>
-                          <td class="green-col">Verified</td>
-                        </tr>
-                        <tr>
-                          <td>Permanent address verification report</td>
-                          <td>10 Jan, 2022</td>
-                          <td class="green-col">Completed</td>
-                          <td class="green-col">Verified</td>
-                        </tr>
-                        <tr>
-                          <td>Reference check report</td>
-                          <td>11 Jan, 2022</td>
-                          <td class="green-col">Completed</td>
-                          <td class="green-col">Completed</td>
-                        </tr>
-                        <tr>
-                            <td>Court Record Verification report</td>
-                            <td>09 Jan, 2022</td>
-                            <td class="green-col">Completed</td>
-                            <td class="red-col">Cases found</td>
-                          </tr>
-                        
-                      </table>
-                    </div>
-                    
-                  </div>
-                </div>
             <div class="footer">
                <p>For all verifications and background checks, candidate's consent is mandatory. Obtaining consent is the responsibility of requesting individual
                   or organisation, and NoBroker &OnGrid shall not be responsible or liable for the same. The information presented in this report is confidential in
@@ -122,7 +128,6 @@
             </div>
          </div>
       </section>
-
       <!-- page 2 section -->
       <section id="page-2">
          <div class="container">
@@ -130,7 +135,7 @@
                <div>
                   <img src="images/nobrokerlogo.png" alt="nobrokerlogo">
                </div>
-               <div style="text-align: right;margin-right: -135px;">
+               <div class="align-red">
                   <div class="flex-item">
                   </div>
                   <div>
@@ -178,610 +183,659 @@
             </div>
          </div>
       </section>
-
       <!-- page 3 section -->
       <section id="page-3">
-        <div class="container">
-           <div class="flex-container">
-              <div>
-                 <img src="images/nobrokerlogo.png" alt="nobrokerlogo">
-              </div>
-              <div style="text-align: right;margin-right: -135px;">
-                 <div class="flex-item">
-                 </div>
-                 <div>
-                    <h1 class=".page-1-num">3</h1>
-                 </div>
-              </div>
-           </div>
-           <div>
-              <h2 style="width: 380px;">ID Verification report - Detailed</h2>
-           </div>
-           <div class="div-pad">
-            <div class="row">
-                <h3>Given Information</h3>
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>Name on card</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>Card number</td>
-                    </tr>
-                    <tr>
-                      <td>Card type</td>
-                    </tr>
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>John David</td>
-                    </tr>
-                    <tr>
-                      <td>ASDFG1234R</td>
-                    </tr>
-                    <tr>
-                      <td>PAN</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-              <div class="row">
-                <h3 >Verified Information</h3>
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>Card number</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>Name on card</td>
-                    </tr>
-                    <tr>
-                      <td>DOB on card</td>
-                    </tr>
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>ASDFG1234R</td>
-                    </tr>
-                    <tr>
-                      <td>John David</td>
-                    </tr>
-                    <tr>
-                      <td>25 Oct, 2000</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-              <div class="row">
-                <h3 >Verification result</h3>
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>Verification date</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>Result</td>
-                    </tr>
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>08 Jan, 2022</td>
-                    </tr>
-                    <tr>
-                      <td class="green-col"><i class="fa fa-check-circle"></i> Verified</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-           </div>
-           <div class="footer">
-              <p>For all verifications and background checks, candidate's consent is mandatory. Obtaining consent is the responsibility of requesting individual
-                 or organisation, and NoBroker &OnGrid shall not be responsible or liable for the same. The information presented in this report is confidential in
-                 nature and is meant only for the requester or owner of this report. The information presented in report is collected on a best- effort-basis, and
-                 NoBroker &OnGrid does not guarantee accuracy or completeness of information. This report should only act as a guide, and not be considered
-                 as final pronouncement on the candidate. NoBroker &OnGrid reserves the right to amend this report in case additional information or
-                 documentation becomes available, which may alter the results presented in this report.
-              </p>
-              <h5 class="ongrid">Powered By <img src="images/ongridlogo.svg" alt="ongridlogo"></h5>
-           </div>
-        </div>
-     </section>
-
-     <!-- page 4 section -->
-     <section id="page-4">
-        <div class="container">
-           <div class="flex-container">
-              <div>
-                 <img src="images/nobrokerlogo.png" alt="nobrokerlogo">
-              </div>
-              <div style="text-align: right;margin-right: -135px;">
-                 <div class="flex-item">
-                 </div>
-                 <div>
-                    <h1 class=".page-1-num">4</h1>
-                 </div>
-              </div>
-           </div>
-           <div>
-              <h2 style="width: 380px;">Permanent address verification report</h2>
-           </div>
-           <div class="div-pad">
-            <div class="row">
-                <h3>Given Information</h3>
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>Address</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>Mobile</td>
-                    </tr>
-                    <tr>
-                      <td>Name</td>
-                    </tr>
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>44, 5th Street, Alpine society, Mumbai, Maharastra 400011</td>
-                    </tr>
-                    <tr>
-                      <td>9888888888</td>
-                    </tr>
-                    <tr>
-                      <td>John David</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-              <div class="row">
-                <h3 >Verification result</h3>
-                
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>Verification date and time</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>Result</td>
-                    </tr>
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>10 Jan, 2022 05:14 PM</td>
-                    </tr>
-                    <tr>
-                        <td class="green-col"><i class="fa fa-check-circle"></i> Verified</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-              <div class="row">
-                <h3 >Verified Information</h3>
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>Letter Dispatch date and time</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>Letter Delivery date and time</td>
-                    </tr>
-                    <tr>
-                        <td>PIN Verification date and time</td>
-                        
-                      </tr>
-                      <tr>
-                        <td>Random Pin Generated</td>
-                      </tr>
-                      <tr>
-                        <td>Pin Received</td>
-                        
-                      </tr>
-                      <tr>
-                        <td>Mode of PIN Verification</td>
-                      </tr>
-
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>08 Jan, 2022 05:14 PM</td>
-                    </tr>
-                    <tr>
-                      <td>10 Jan, 2022 05:14 PM</td>
-                    </tr>
-                    <tr>
-                        <td>10 Jan, 2022 05:14 PM</td>
-                      </tr>
-                      <tr>
-                        <td>71024</td>
-                      </tr>
-                      <tr>
-                        <td>71024</td>
-                      </tr>
-                      <tr>
-                        <td>Incoming Message</td>
-                      </tr>
-                     
-                  </table>
-                </div>
-              </div>
-           </div>
-           <div class="footer">
-              <p>For all verifications and background checks, candidate's consent is mandatory. Obtaining consent is the responsibility of requesting individual
-                 or organisation, and NoBroker &OnGrid shall not be responsible or liable for the same. The information presented in this report is confidential in
-                 nature and is meant only for the requester or owner of this report. The information presented in report is collected on a best- effort-basis, and
-                 NoBroker &OnGrid does not guarantee accuracy or completeness of information. This report should only act as a guide, and not be considered
-                 as final pronouncement on the candidate. NoBroker &OnGrid reserves the right to amend this report in case additional information or
-                 documentation becomes available, which may alter the results presented in this report.
-              </p>
-              <h5 class="ongrid">Powered By <img src="images/ongridlogo.svg" alt="ongridlogo"></h5>
-           </div>
-        </div>
-     </section>
-
-     <!-- page 5 section -->
-     <section id="page-5">
-        <div class="container">
-           <div class="flex-container">
-              <div>
-                 <img src="images/nobrokerlogo.png" alt="nobrokerlogo">
-              </div>
-              <div style="text-align: right;margin-right: -135px;">
-                 <div class="flex-item">
-                 </div>
-                 <div>
-                    <h1 class=".page-1-num">5</h1>
-                 </div>
-              </div>
-           </div>
-           <div>
-              <h2 style="width: 380px;">Reference check report</h2>
-           </div>
-           <div class="div-pad">
-            <div class="row">
-                <h3>Reference Provider Information</h3>
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>Name</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>Phone</td>
-                    </tr>
-                    <tr>
-                      <td>Reference date and time</td>
-                    </tr>
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>David Shawn</td>
-                    </tr>
-                    <tr>
-                      <td>7888888778</td>
-                    </tr>
-                    <tr>
-                      <td>11 Jan, 2022 05:14 PM</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-              <div class="row">
-                <h3 >Basic Information</h3>
-                
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>1. What is the city/address of your property?</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>2. How long was the tenancy? (In months)</td>
-                    </tr>
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>D168 Bapu Nagar Jaipur</td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-              <div class="row">
-                <h3 >Tenant Feedback (This will not be shared with the tenant)</h3>
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>1. Did the tenant pay rent on time?</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>2. Did the tenant maintain your property well?</td>
-                    </tr>
-                    <tr>
-                        <td>3. In case the tenant did not maintain your property well, please
-                            describe a few instances of poor maintenance of property?</td>
-                        
-                      </tr>
-                      <tr>
-                        <td>4. Were there any complaints from neighbors or any other tenants?</td>
-                      </tr>
-                      <tr>
-                        <td>5. In case there were complaints from neighbors or other tenants,
-                            please describe a few instances of complaints?</td>
-                        
-                      </tr>
-                      <tr>
-                        <td>6. Was there any damage caused to your property?</td>
-                      </tr>
-                      <tr>
-                        <td>7. In case of damage to your property, please provide details of
-                            damage.</td>
-                      </tr>
-                      <tr>
-                        <td>8. Additional Remarks for tenant.</td>
-                      </tr>
-
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>Always on time</td>
-                    </tr>
-                    <tr>
-                      <td>Yes</td>
-                    </tr>
-                    <tr>
-                        <td>No Comments</td>
-                      </tr>
-                      <tr>
-                        <td>Yes</td>
-                      </tr>
-                      <tr>
-                        <td>Few Incidents of Loud Music Being
-                            Played.</td>
-                      </tr>
-                      <tr>
-                        <td>No</td>
-                      </tr>
-                      <tr>
-                        <td>No Damages</td>
-                      </tr>
-                      <tr>
-                        <td>Ideal Tenant. Minimal Intervention
-                            Required in the Period of Tenancy.</td>
-                      </tr>
-                  </table>
-                </div>
-              </div>
-           </div>
-           <div class="footer">
-              <p>For all verifications and background checks, candidate's consent is mandatory. Obtaining consent is the responsibility of requesting individual
-                 or organisation, and NoBroker &OnGrid shall not be responsible or liable for the same. The information presented in this report is confidential in
-                 nature and is meant only for the requester or owner of this report. The information presented in report is collected on a best- effort-basis, and
-                 NoBroker &OnGrid does not guarantee accuracy or completeness of information. This report should only act as a guide, and not be considered
-                 as final pronouncement on the candidate. NoBroker &OnGrid reserves the right to amend this report in case additional information or
-                 documentation becomes available, which may alter the results presented in this report.
-              </p>
-              <h5 class="ongrid">Powered By <img src="images/ongridlogo.svg" alt="ongridlogo"></h5>
-           </div>
-        </div>
-     </section>
-
-     <!-- page 6 section -->
-     <section id="page-5">
-        <div class="container">
-           <div class="flex-container">
-              <div>
-                 <img src="images/nobrokerlogo.png" alt="nobrokerlogo">
-              </div>
-              <div style="text-align: right;margin-right: -135px;">
-                 <div class="flex-item">
-                 </div>
-                 <div>
-                    <h1 class=".page-1-num">5</h1>
-                 </div>
-              </div>
-           </div>
-           <div>
-              <h2 style="width: 300px;">Reference check report</h2>
-           </div>
-           <div class="div-pad">
-            <div class="row">
-                <h3>Reference Provider Information</h3>
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>Name</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>Phone</td>
-                    </tr>
-                    <tr>
-                      <td>Reference date and time</td>
-                    </tr>
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>David Shawn</td>
-                    </tr>
-                    <tr>
-                      <td>7888888778</td>
-                    </tr>
-                    <tr>
-                      <td>11 Jan, 2022 05:14 PM</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-              <div class="row">
-                <h3 >Basic Information</h3>
-                
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>1. What is the city/address of your property?</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>2. How long was the tenancy? (In months)</td>
-                    </tr>
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>D168 Bapu Nagar Jaipur</td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-              <div class="row">
-                <h3 >Tenant Feedback (This will not be shared with the tenant)</h3>
-                <div class="column">
-                   
-                  <table>
-                    
-                    <tr>
-                      <td>1. Did the tenant pay rent on time?</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>2. Did the tenant maintain your property well?</td>
-                    </tr>
-                    <tr>
-                        <td>3. In case the tenant did not maintain your property well, please
-                            describe a few instances of poor maintenance of property?</td>
-                        
-                      </tr>
-                      <tr>
-                        <td>4. Were there any complaints from neighbors or any other tenants?</td>
-                      </tr>
-                      <tr>
-                        <td>5. In case there were complaints from neighbors or other tenants,
-                            please describe a few instances of complaints?</td>
-                        
-                      </tr>
-                      <tr>
-                        <td>6. Was there any damage caused to your property?</td>
-                      </tr>
-                      <tr>
-                        <td>7. In case of damage to your property, please provide details of
-                            damage.</td>
-                      </tr>
-                      <tr>
-                        <td>8. Additional Remarks for tenant.</td>
-                      </tr>
-
-                    
-                  </table>
-                </div>
-                <div class="column-1">
-                  <table>
-                    <tr>
-                      <td>Always on time</td>
-                    </tr>
-                    <tr>
-                      <td>Yes</td>
-                    </tr>
-                    <tr>
-                        <td>No Comments</td>
-                      </tr>
-                      <tr>
-                        <td>Yes</td>
-                      </tr>
-                      <tr>
-                        <td>Few Incidents of Loud Music Being
-                            Played.</td>
-                      </tr>
-                      <tr>
-                        <td>No</td>
-                      </tr>
-                      <tr>
-                        <td>No Damages</td>
-                      </tr>
-                      <tr>
-                        <td>Ideal Tenant. Minimal Intervention
-                            Required in the Period of Tenancy.</td>
-                      </tr>
-                  </table>
-                </div>
-              </div>
-           </div>
-           <div class="footer">
-              <p>For all verifications and background checks, candidate's consent is mandatory. Obtaining consent is the responsibility of requesting individual
-                 or organisation, and NoBroker &OnGrid shall not be responsible or liable for the same. The information presented in this report is confidential in
-                 nature and is meant only for the requester or owner of this report. The information presented in report is collected on a best- effort-basis, and
-                 NoBroker &OnGrid does not guarantee accuracy or completeness of information. This report should only act as a guide, and not be considered
-                 as final pronouncement on the candidate. NoBroker &OnGrid reserves the right to amend this report in case additional information or
-                 documentation becomes available, which may alter the results presented in this report.
-              </p>
-              <h5 class="ongrid">Powered By <img src="images/ongridlogo.svg" alt="ongridlogo"></h5>
-           </div>
-        </div>
-     </section>
+         <div class="container">
+            <div class="flex-container">
+               <div>
+                  <img src="images/nobrokerlogo.png" alt="nobrokerlogo">
+               </div>
+               <div class="align-red">
+                  <div class="flex-item">
+                  </div>
+                  <div>
+                     <h1 class=".page-1-num">3</h1>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <h2 style="width: 380px;">ID Verification report - Detailed</h2>
+            </div>
+            <div class="div-pad">
+               <div class="row">
+                  <h3>Given Information</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>Name on card</td>
+                        </tr>
+                        <tr>
+                           <td>Card number</td>
+                        </tr>
+                        <tr>
+                           <td>Card type</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>John David</td>
+                        </tr>
+                        <tr>
+                           <td>ASDFG1234R</td>
+                        </tr>
+                        <tr>
+                           <td>PAN</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+               <div class="row">
+                  <h3 >Verified Information</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>Card number</td>
+                        </tr>
+                        <tr>
+                           <td>Name on card</td>
+                        </tr>
+                        <tr>
+                           <td>DOB on card</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>ASDFG1234R</td>
+                        </tr>
+                        <tr>
+                           <td>John David</td>
+                        </tr>
+                        <tr>
+                           <td>25 Oct, 2000</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+               <div class="row">
+                  <h3 >Verification result</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>Verification date</td>
+                        </tr>
+                        <tr>
+                           <td>Result</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>08 Jan, 2022</td>
+                        </tr>
+                        <tr>
+                           <td class="green-col"><i class="fa fa-check-circle"></i> Verified</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="footer">
+               <p>For all verifications and background checks, candidate's consent is mandatory. Obtaining consent is the responsibility of requesting individual
+                  or organisation, and NoBroker &OnGrid shall not be responsible or liable for the same. The information presented in this report is confidential in
+                  nature and is meant only for the requester or owner of this report. The information presented in report is collected on a best- effort-basis, and
+                  NoBroker &OnGrid does not guarantee accuracy or completeness of information. This report should only act as a guide, and not be considered
+                  as final pronouncement on the candidate. NoBroker &OnGrid reserves the right to amend this report in case additional information or
+                  documentation becomes available, which may alter the results presented in this report.
+               </p>
+               <h5 class="ongrid">Powered By <img src="images/ongridlogo.svg" alt="ongridlogo"></h5>
+            </div>
+         </div>
+      </section>
+      <!-- page 4 section -->
+      <section id="page-4">
+         <div class="container">
+            <div class="flex-container">
+               <div>
+                  <img src="images/nobrokerlogo.png" alt="nobrokerlogo">
+               </div>
+               <div class="align-red">
+                  <div class="flex-item">
+                  </div>
+                  <div>
+                     <h1 class=".page-1-num">4</h1>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <h2 style="width: 380px;">Permanent address verification report</h2>
+            </div>
+            <div class="div-pad">
+               <div class="row">
+                  <h3>Given Information</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>Address</td>
+                        </tr>
+                        <tr>
+                           <td>Mobile</td>
+                        </tr>
+                        <tr>
+                           <td>Name</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>44, 5th Street, Alpine society, Mumbai, Maharastra 400011</td>
+                        </tr>
+                        <tr>
+                           <td>9888888888</td>
+                        </tr>
+                        <tr>
+                           <td>John David</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+               <div class="row">
+                  <h3 >Verification result</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>Verification date and time</td>
+                        </tr>
+                        <tr>
+                           <td>Result</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>10 Jan, 2022 05:14 PM</td>
+                        </tr>
+                        <tr>
+                           <td class="green-col"><i class="fa fa-check-circle"></i> Verified</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+               <div class="row">
+                  <h3 >Verified Information</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>Letter Dispatch date and time</td>
+                        </tr>
+                        <tr>
+                           <td>Letter Delivery date and time</td>
+                        </tr>
+                        <tr>
+                           <td>PIN Verification date and time</td>
+                        </tr>
+                        <tr>
+                           <td>Random Pin Generated</td>
+                        </tr>
+                        <tr>
+                           <td>Pin Received</td>
+                        </tr>
+                        <tr>
+                           <td>Mode of PIN Verification</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>08 Jan, 2022 05:14 PM</td>
+                        </tr>
+                        <tr>
+                           <td>10 Jan, 2022 05:14 PM</td>
+                        </tr>
+                        <tr>
+                           <td>10 Jan, 2022 05:14 PM</td>
+                        </tr>
+                        <tr>
+                           <td>71024</td>
+                        </tr>
+                        <tr>
+                           <td>71024</td>
+                        </tr>
+                        <tr>
+                           <td>Incoming Message</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="footer">
+               <p>For all verifications and background checks, candidate's consent is mandatory. Obtaining consent is the responsibility of requesting individual
+                  or organisation, and NoBroker &OnGrid shall not be responsible or liable for the same. The information presented in this report is confidential in
+                  nature and is meant only for the requester or owner of this report. The information presented in report is collected on a best- effort-basis, and
+                  NoBroker &OnGrid does not guarantee accuracy or completeness of information. This report should only act as a guide, and not be considered
+                  as final pronouncement on the candidate. NoBroker &OnGrid reserves the right to amend this report in case additional information or
+                  documentation becomes available, which may alter the results presented in this report.
+               </p>
+               <h5 class="ongrid">Powered By <img src="images/ongridlogo.svg" alt="ongridlogo"></h5>
+            </div>
+         </div>
+      </section>
+      <!-- page 5 section -->
+      <section id="page-5">
+         <div class="container">
+            <div class="flex-container">
+               <div>
+                  <img src="images/nobrokerlogo.png" alt="nobrokerlogo">
+               </div>
+               <div class="align-red">
+                  <div class="flex-item">
+                  </div>
+                  <div>
+                     <h1 class=".page-1-num">5</h1>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <h2 style="width: 380px;">Reference check report</h2>
+            </div>
+            <div class="div-pad">
+               <div class="row">
+                  <h3>Reference Provider Information</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>Name</td>
+                        </tr>
+                        <tr>
+                           <td>Phone</td>
+                        </tr>
+                        <tr>
+                           <td>Reference date and time</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>David Shawn</td>
+                        </tr>
+                        <tr>
+                           <td>7888888778</td>
+                        </tr>
+                        <tr>
+                           <td>11 Jan, 2022 05:14 PM</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+               <div class="row">
+                  <h3 >Basic Information</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>1. What is the city/address of your property?</td>
+                        </tr>
+                        <tr>
+                           <td>2. How long was the tenancy? (In months)</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>D168 Bapu Nagar Jaipur</td>
+                        </tr>
+                        <tr>
+                           <td>12</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+               <div class="row">
+                  <h3 >Tenant Feedback (This will not be shared with the tenant)</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>1. Did the tenant pay rent on time?</td>
+                        </tr>
+                        <tr>
+                           <td>2. Did the tenant maintain your property well?</td>
+                        </tr>
+                        <tr>
+                           <td>3. In case the tenant did not maintain your property well, please
+                              describe a few instances of poor maintenance of property?
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>4. Were there any complaints from neighbors or any other tenants?</td>
+                        </tr>
+                        <tr>
+                           <td>5. In case there were complaints from neighbors or other tenants,
+                              please describe a few instances of complaints?
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>6. Was there any damage caused to your property?</td>
+                        </tr>
+                        <tr>
+                           <td>7. In case of damage to your property, please provide details of
+                              damage.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>8. Additional Remarks for tenant.</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>Always on time</td>
+                        </tr>
+                        <tr>
+                           <td>Yes</td>
+                        </tr>
+                        <tr>
+                           <td>No Comments</td>
+                        </tr>
+                        <tr>
+                           <td>Yes</td>
+                        </tr>
+                        <tr>
+                           <td>Few Incidents of Loud Music Being
+                              Played.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>No</td>
+                        </tr>
+                        <tr>
+                           <td>No Damages</td>
+                        </tr>
+                        <tr>
+                           <td>Ideal Tenant. Minimal Intervention
+                              Required in the Period of Tenancy.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="footer">
+               <p>For all verifications and background checks, candidate's consent is mandatory. Obtaining consent is the responsibility of requesting individual
+                  or organisation, and NoBroker &OnGrid shall not be responsible or liable for the same. The information presented in this report is confidential in
+                  nature and is meant only for the requester or owner of this report. The information presented in report is collected on a best- effort-basis, and
+                  NoBroker &OnGrid does not guarantee accuracy or completeness of information. This report should only act as a guide, and not be considered
+                  as final pronouncement on the candidate. NoBroker &OnGrid reserves the right to amend this report in case additional information or
+                  documentation becomes available, which may alter the results presented in this report.
+               </p>
+               <h5 class="ongrid">Powered By <img src="images/ongridlogo.svg" alt="ongridlogo"></h5>
+            </div>
+         </div>
+      </section>
+      <!-- page 6 section -->
+      <section id="page-5">
+         <div class="container">
+            <div class="flex-container">
+               <div>
+                  <img src="images/nobrokerlogo.png" alt="nobrokerlogo">
+               </div>
+               <div class="align-red">
+                  <div class="flex-item">
+                  </div>
+                  <div>
+                     <h1 class=".page-1-num">5</h1>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <h2 style="width: 300px;">Reference check report</h2>
+            </div>
+            <div class="div-pad">
+               <div class="row">
+                  <h3>Reference Provider Information</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>Name</td>
+                        </tr>
+                        <tr>
+                           <td>Phone</td>
+                        </tr>
+                        <tr>
+                           <td>Reference date and time</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>David Shawn</td>
+                        </tr>
+                        <tr>
+                           <td>7888888778</td>
+                        </tr>
+                        <tr>
+                           <td>11 Jan, 2022 05:14 PM</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+               <div class="row">
+                  <h3 >Basic Information</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>1. What is the city/address of your property?</td>
+                        </tr>
+                        <tr>
+                           <td>2. How long was the tenancy? (In months)</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>D168 Bapu Nagar Jaipur</td>
+                        </tr>
+                        <tr>
+                           <td>12</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+               <div class="row">
+                  <h3 >Tenant Feedback (This will not be shared with the tenant)</h3>
+                  <div class="column">
+                     <table>
+                        <tr>
+                           <td>1. Did the tenant pay rent on time?</td>
+                        </tr>
+                        <tr>
+                           <td>2. Did the tenant maintain your property well?</td>
+                        </tr>
+                        <tr>
+                           <td>3. In case the tenant did not maintain your property well, please
+                              describe a few instances of poor maintenance of property?
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>4. Were there any complaints from neighbors or any other tenants?</td>
+                        </tr>
+                        <tr>
+                           <td>5. In case there were complaints from neighbors or other tenants,
+                              please describe a few instances of complaints?
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>6. Was there any damage caused to your property?</td>
+                        </tr>
+                        <tr>
+                           <td>7. In case of damage to your property, please provide details of
+                              damage.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>8. Additional Remarks for tenant.</td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="column-1">
+                     <table>
+                        <tr>
+                           <td>Always on time</td>
+                        </tr>
+                        <tr>
+                           <td>Yes</td>
+                        </tr>
+                        <tr>
+                           <td>No Comments</td>
+                        </tr>
+                        <tr>
+                           <td>Yes</td>
+                        </tr>
+                        <tr>
+                           <td>Few Incidents of Loud Music Being
+                              Played.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>No</td>
+                        </tr>
+                        <tr>
+                           <td>No Damages</td>
+                        </tr>
+                        <tr>
+                           <td>Ideal Tenant. Minimal Intervention
+                              Required in the Period of Tenancy.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="footer">
+               <p>For all verifications and background checks, candidate's consent is mandatory. Obtaining consent is the responsibility of requesting individual
+                  or organisation, and NoBroker &OnGrid shall not be responsible or liable for the same. The information presented in this report is confidential in
+                  nature and is meant only for the requester or owner of this report. The information presented in report is collected on a best- effort-basis, and
+                  NoBroker &OnGrid does not guarantee accuracy or completeness of information. This report should only act as a guide, and not be considered
+                  as final pronouncement on the candidate. NoBroker &OnGrid reserves the right to amend this report in case additional information or
+                  documentation becomes available, which may alter the results presented in this report.
+               </p>
+               <h5 class="ongrid">Powered By <img src="images/ongridlogo.svg" alt="ongridlogo"></h5>
+            </div>
+         </div>
+      </section>
+      <!-- page 7 section -->
+      <section id="page-6">
+         <div class="container">
+            <h1 style="padding-top: 3pt;" class="pad-let">Case Content 1</h1>
+            <br>
+            <p class="pad-let">Sub Court, Kancheepuram</p>
+            <br>
+            <p class="pad-let">Case Details</p>
+            <p class="pad-let">Case Type : LAOP</p>
+            <p class="pad-let">Filing Number: 200121/2009Filing Date: 12-08-2009 Registration No.: 200121/2009Registration Date: 12-08-2009 CNR NO: TNKP07-000208-2009</p>
+            <br>
+            <p class="pad-let">Case Status</p>
+            <br>
+            <p style="padding-left: 5pt;text-indent: 0pt;text-align: justify;">First Hearing Date : 27th August 2013 Next Hearing Date: 09th August 2016 Stage of Case: APPEARANCE</p>
+            <p class="pad-let">Court No. and Judge : 2-Subordinate Judge</p>
+            <br>
+            <p class="pad-let">Petitioner and Advocate</p>
+            <ol id="l3">
+               <li data-list-text="1)">
+                  <p style="padding-left: 19pt;text-indent: -14pt;text-align: left;">State Government</p>
+               </li>
+            </ol>
+            <p class="pad-let">Address - Unit I, Outer Ring Rd.Project.CH.8</p>
+            <br>
+            <p class="pad-let">Respondent and Advocate</p>
+            <ol id="l4">
+               <li data-list-text="1)">
+                  <p class="pad-let">Panchayat Union commissioner 14 others Address - Padappai</p>
+                  <br>
+               </li>
+               <li data-list-text="2)">
+                  <p class="pad-let">Jayalakshmi chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="3)">
+                  <p class="pad-let">Maniyan chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="4)">
+                  <p class="pad-let">Balakrishnan chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="5)">
+                  <p class="pad-let">Sadaiyan chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="6)">
+                  <p class="pad-let">Maheswari chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="7)">
+                  <p class="pad-let">victobai chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="8)">
+                  <p class="pad-let">Rajayogam chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="9)">
+                  <p class="pad-let">Vaithiyanathan chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="10)">
+                  <p style="padding-left: 25pt;text-indent: -20pt;text-align: left;">Meenakshi</p>
+                  <p style="padding-top: 3pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="11)">
+                  <p class="pad-let">Babu chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="12)">
+                  <p class="pad-let">Murugasan chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="13)">
+                  <p class="pad-let">Narayanan chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="14)">
+                  <p class="pad-let">Poochandu chennai</p>
+                  <br>
+               </li>
+               <li data-list-text="15)">
+                  <p class="pad-let">Rajagopalan chennai</p>
+               </li>
+            </ol>
+            <br>
+            <p class="pad-let">History of Case Hearing</p>
+            <br>
+            <p class="pad-let">Registration No. Judge Business On Date Hearing Date Purpose of hearing 200121/2009 27-08-2013 03-12-2013 APPEARANCE</p>
+            <p class="pad-let">200121/2009 03-12-2013 25-02-2014 APPEARANCE</p>
+            <p class="pad-let">200121/2009 Subordinate Judge 25-02-2014 24-06-2014 APPEARANCE</p>
+            <p class="pad-let">200121/2009 Subordinate Judge 24-06-2014 26-08-2014 APPEARANCE</p>
+            <p class="pad-let">200121/2009 Subordinate Judge 26-08-2014 04-11-2014 APPEARANCE</p>
+            <p class="pad-let">200121/2009 Subordinate Judge 04-11-2014 02-12-2014 APPEARANCE</p>
+            <p class="pad-let">200121/2009 Subordinate Judge 02-12-2014 25-09-2015 LOK - ADALAT</p>
+            <p class="pad-let">200121/2009 Subordinate Judge 25-09-2015 24-11-2015 APPEARANCE</p>
+            <p class="pad-let">200121/2009 Subordinate Judge 24-11-2015 05-01-2016 APPEARANCE</p>
+            <p class="pad-let">200121/2009 Subordinate Judge 05-01-2016 29-03-2016 APPEARANCE</p>
+            <p class="pad-let">200121/2009 Subordinate Judge 29-03-2016 07-06-2016 APPEARANCE</p>
+            <p class="pad-let">200121/2009 Subordinate Judge 07-06-2016 09-08-2016 APPEARANCE</p>
+         </div>
+      </section>
    </body>
 </html>
