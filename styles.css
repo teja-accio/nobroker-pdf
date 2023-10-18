@@ -363,7 +363,7 @@ text-align: left;
   
   
   div.footer {
-    position: -webkit-sticky;  /* <----- required (for WebKit) */
+    /* position: -webkit-sticky;  <----- required (for WebKit) */
     bottom: 10px;  /* <----------------- required              */
     background-color: #F0F0F0;
     margin-top: 200px;
@@ -598,7 +598,7 @@ text-align: left;
   
   
   div.footer {
-    position: -webkit-sticky;  /* <----- required (for WebKit) */
+   /* position: -webkit-sticky;   <----- required (for WebKit) */
     bottom: 10px;  /* <----------------- required              */
     background-color: #F0F0F0;
     margin-top: 200px;
@@ -833,7 +833,7 @@ text-align: left;
   
   
   div.footer {
-    position: -webkit-sticky;  /* <----- required (for WebKit) */
+   /* position: -webkit-sticky;   <----- required (for WebKit) */
     bottom: 10px;  /* <----------------- required              */
     background-color: #F0F0F0;
     margin-top: 200px;
@@ -1068,7 +1068,7 @@ text-align: left;
   
   
   div.footer {
-    position: -webkit-sticky;  /* <----- required (for WebKit) */
+     /* position: -webkit-sticky; <----- required (for WebKit) */
     bottom: 10px;  /* <----------------- required              */
     background-color: #F0F0F0;
     margin-top: 200px;
@@ -1302,7 +1302,7 @@ text-align: left;
   
   
   div.footer {
-    position: -webkit-sticky;  /* <----- required (for WebKit) */
+   /* position: -webkit-sticky;   <----- required (for WebKit) */
     bottom: 10px;  /* <----------------- required              */
     background-color: #F0F0F0;
     margin-top: 200px;
