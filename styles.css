@@ -117,15 +117,46 @@ div .status-head{
   margin-top: -10px;
 }
 
-div h2 {
+div h2.veri {
   content: "";
   display: block;
   padding-top: 15px;
   border-bottom: 5px solid darkblue;
+  font-size: 16px;
+  width: 170px;
+  display: visible;
 }
-/* .div-right{
-  text-align: right;
-} */
+
+div h2.veri-mobile {
+  content: "";
+  display: block;
+  padding-top: 15px;
+  border-bottom: 5px solid darkblue;
+  font-size: 24px;
+  width: 60px;
+  display: none;
+}
+
+div h2.reference {
+  content: "";
+  display: block;
+  padding-top: 15px;
+  border-bottom: 5px solid darkblue;
+  font-size: 16px;
+  width: 180px;
+  display: visible;
+}
+
+div h2.reference-mobile {
+  content: "";
+  display: block;
+  padding-top: 15px;
+  border-bottom: 5px solid darkblue;
+  font-size: 16px;
+  width: 60px;
+  display: none;
+}
+
 .head-div{
   margin-top: 10px;
 }
@@ -306,15 +337,7 @@ text-align: left;
     font-size: 35px;
     margin-right: 112px;
   }
-  /* .flex-container div {
-    margin-right: 110px;
-    padding: 10px;
-    
-  }*/
-  /* .flex-container .align-red{
-    text-align: right;
-    margin-right: -135px;
-  }  */
+ 
   
   .flex-item {
     flex-basis: 30%;
@@ -367,21 +390,108 @@ text-align: left;
   div .status-head{
     align-items: right;
   }
-  /* span.status-color{
-    color: green;
-  } */
   
   
-  div h2 {
+  div h2.disclaimer {
     content: "";
     display: block;
-    
     padding-top: 15px;
     border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 82px;
+    display: visible;
   }
-  /* .div-right{
-    text-align: right;
-  } */
+
+  div h2.disclaimer-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.id-veri {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 235px;
+    display: visible;
+  }
+
+  div h2.id-veri-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.permanent {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 240px;
+    display: visible;
+  }
+
+  div h2.permanent-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.reference {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 180px;
+    display: visible;
+  }
+
+  div h2.reference-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.court {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 252px;
+    display: visible;
+  }
+
+  div h2.court-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 60px;
+    display: none;
+  }
+
   .head-div{
     margin-top: 10px;
   }
@@ -633,16 +743,126 @@ text-align: left;
     margin-top: -10px;
   }
   
-  div h2 {
+  div h2.veri {
     content: "";
     display: block;
-    
     padding-top: 15px;
     border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 170px;
+    display: visible;
   }
-  /* .div-right{
-    text-align: right;
-  } */
+
+  div h2.veri-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.disclaimer {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 82px;
+    display: visible;
+  }
+
+  div h2.disclaimer-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.id-veri {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 235px;
+    display: visible;
+  }
+
+  div h2.id-veri-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.permanent {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 290px;
+    display: visible;
+  }
+
+  div h2.permanent-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.reference {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 180px;
+    display: visible;
+  }
+
+  div h2.reference-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.court {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 250px;
+    display: visible;
+  }
+
+  div h2.court-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 60px;
+    display: none;
+  }
+
   .head-div{
     margin-top: 10px;
   }
@@ -894,16 +1114,45 @@ text-align: left;
     margin-top: -10px;
   }
   
-  div h2 {
+  div h2.veri {
     content: "";
     display: block;
-    
     padding-top: 15px;
     border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 170px;
+    display: visible;
   }
-  /* .div-right{
-    text-align: right;
-  } */
+
+  div h2.veri-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+  
+  div h2.reference {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 180px;
+    display: visible;
+  }
+
+  div h2.reference-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 60px;
+    display: none;
+  }
   .head-div{
     margin-top: 10px;
   }
@@ -1155,16 +1404,46 @@ text-align: left;
     margin-top: -10px;
   }
   
-  div h2 {
+  div h2.veri {
     content: "";
     display: block;
-    
     padding-top: 15px;
     border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 252px;
+    display: visible;
   }
-  /* .div-right{
-    text-align: right;
-  } */
+
+  div h2.veri-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.reference {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 180px;
+    display: visible;
+  }
+
+  div h2.reference-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 16px;
+    width: 60px;
+    display: none;
+  }
+
   .head-div{
     margin-top: 10px;
   }
@@ -1413,16 +1692,131 @@ text-align: left;
     margin-top: -10px;
   }
   
-  div h2 {
+  div h2.veri {
     content: "";
     display: block;
-    
     padding-top: 15px;
     border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 252px;
+    display: visible;
   }
-  /* .div-right{
-    text-align: right;
-  } */
+
+  div h2.veri-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.disclaimer {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 122px;
+    display: visible;
+  }
+
+  div h2.disclaimer-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.id-veri {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 351px;
+    display: visible;
+  }
+
+  div h2.id-veri-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.permanent {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 434px;
+    display: visible;
+  }
+
+  div h2.permanent-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.reference {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 267px;
+    display: visible;
+  }
+
+  div h2.reference-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+
+  div h2.court {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 375px;
+    display: visible;
+  }
+
+  div h2.court-mobile {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 5px solid darkblue;
+    font-size: 24px;
+    width: 60px;
+    display: none;
+  }
+
+  
+  /* div h2.disc{
+    width: 122px;
+  }  */
+
   .head-div{
     margin-top: 10px;
   }
