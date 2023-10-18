@@ -319,7 +319,7 @@ text-align: left;
   .flex-item {
     flex-basis: 30%;
     background-color: red;
-    width: 90px;
+    width: 60px;
     letter-spacing: 1px;
     margin-right: 106px !important;
   } 
@@ -575,7 +575,7 @@ text-align: left;
   .flex-item {
     flex-basis: 30%;
     background-color: red;
-    width: 250px;
+    width: 60px;
     margin-right: 5px;
     letter-spacing: 1px;
     margin-top: -10px;
